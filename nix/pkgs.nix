@@ -59,7 +59,7 @@ let
       }) // {
         name = "pypi2nix";
         update = self.mozilla_releng.lib.updateFromGitHub {
-          owner = "garbas";
+          owner = "seppeljordan";
           repo = "pypi2nix";
           branch = "master";
           path = "nix/pypi2nix.json";
